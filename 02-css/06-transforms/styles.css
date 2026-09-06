@@ -14,3 +14,19 @@
     transform: skew(135deg);
     
 }
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.translated{
+    transform: perspective(10px) translateZ(-10px);
+}
+
+.scaled{
+    margin-left: 200px;
+    transform:perspective(350px) scaleZ(6) rotateX(45deg) rotate(30deg);
+}
