@@ -32,3 +32,6 @@ The position property specifies the type of positoning method used for an elemen
 - Fixed
 - Absolute
 - Sticky
+
+#### Excercise 
+***Position Text in all corners && center of an image*** 
