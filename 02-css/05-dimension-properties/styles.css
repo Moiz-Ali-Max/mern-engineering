@@ -18,5 +18,41 @@
 
     /* overflow visible */
     overflow: visible;
+}
 
+p{
+    position: static;
+}
+
+.wrapper{
+    height: 1000px;
+    width: 100vw;
+    background-color: lightgreen;
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+/* #box3{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+#box1{
+    position: fixed;
+} */
+
+#box3{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#box4{
+    position: sticky;
+    top: 0px;
 }
