@@ -1,0 +1,17 @@
+h1{
+    text-shadow: 3px 3px 3px red; /* horizontal/vertical blur effect */
+
+    /* creating two shadows (multiple shadows) */
+    text-shadow: 3px 3px 3px red, 3px 3px 3px green;
+}
+
+.box{
+    background-color: lightgreen;
+    height: 200px;
+    width: 150px;
+    box-shadow: 10px 10px 15px blue, 15px 15px 15px brown;
+    color: red;
+
+    /* By Using Negative Value we can change direction */
+    box-shadow: -10px -10px -15px blue, 15px 15px 15px brown;
+}
